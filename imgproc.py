@@ -16,6 +16,7 @@ def loadImage(img_file):
     img = np.array(img)
 
     return img
+# end
 
 def normalizeMeanVariance(in_img, mean=(0.485, 0.456, 0.406), variance=(0.229, 0.224, 0.225)):
     # should be RGB order
